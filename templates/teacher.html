@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teacher Details</title>
+</head>
+<body>
+    <h1>Teacher Details</h1>
+    <!-- Display teacher details here -->
+    {% if logged_in %}
+        <!-- Additional content for logged-in users -->
+    {% else %}
+        <a href="/login">Login</a> | <a href="/register">Register</a>
+    {% endif %}
+</body>
+</html>
